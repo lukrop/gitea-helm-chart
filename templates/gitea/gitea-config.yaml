@@ -16,7 +16,7 @@ data:
     ; see https://docs.gitea.io/en-us/config-cheat-sheet/ for additional documentation.
 
     ; App name that shows in every page title
-    APP_NAME = Gitea: Git with a cup of tea
+    APP_NAME = {{ .Values.config.appName }}
     ; Change it if you run locally
     RUN_USER = git
     ; Either "dev", "prod" or "test", default is "dev"

@@ -174,6 +174,7 @@ The following table lists the configurable parameters of this chart and their de
 | `inPodPostgres.dataMountPath`             | Path for Postgres data storage                  | `nil`                                                         |
 | `affinity`                 | Affinity settings for pod assignment            | {}                                                         |
 | `tolerations`              | Toleration labels for pod assignment            | []                                                         
+| `config.appName`                 | App name that shows in every page title          | `Gitea: Git with a cup of tea`
 | `config.offlineMode`              | Sets Gitea's Offline Mode. Values are `true` or `false`.           | `false`
 | `config.disableRegistration`     | Disable Gitea's user registration. Values are `true` or `false`.   | `false`
 | `config.requireSignin`           | Require Gitea user to be signed in to see any pages. Values are `true` or `false`. | `false`
