@@ -166,4 +166,6 @@ config:
   requireSignin: false
   disableRegistration: false
   openidSignin: true
+  enableMetrics: false
+#  metricsKey:
 

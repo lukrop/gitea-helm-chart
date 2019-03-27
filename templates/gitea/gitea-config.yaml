@@ -712,6 +712,10 @@ data:
 
     [metrics]
     ; Enables metrics endpoint. True or false; default is false.
-    ENABLED = false
+    ENABLED = {{ .Values.config.enableMetrics }}
     ; If you want to add authorization, specify a token here
+    {{ if isset .Values.config.metricsToken }}
+    TOKEN = {{ .Values.config.metricsToken }}
+    {{ else  }}
     TOKEN =
+    {{ end }}
