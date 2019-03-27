@@ -168,4 +168,5 @@ config:
   openidSignin: true
   enableMetrics: false
 #  metricsKey:
+  footerVersion: true
 

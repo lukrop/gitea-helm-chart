@@ -180,3 +180,4 @@ The following table lists the configurable parameters of this chart and their de
 | `config.openidSignin`            | Allow login with OpenID. Values are `true` or `false`. | `true`
 | `config.metricsEnabled`          | Enable metrics. Values are `true` or `false`. | `false`
 | `config.metricsToken`            | Token to access metrics. `string` | `unset`
+| `config.footerVersion`           | Show version information about Gitea and go in the footer. Values are `true` or `false`. | `true`
